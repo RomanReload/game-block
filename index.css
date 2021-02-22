@@ -1,0 +1,195 @@
+body{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+
+}
+
+.game-app{
+    display:flex;
+    width:90%;
+    margin:10px;
+}
+
+.main-field-container{ 
+    display:flex;
+    position: relative;
+    width: 100%;
+    padding:5px;
+    max-width: 700px;
+
+    margin:30px;
+    flex-wrap: wrap;
+    box-shadow: 3px 6px 13px 0px rgba(34, 60, 80, 0.6)
+
+}
+
+.buttons-container{
+    display:flex;
+    position: relative;
+    justify-content: space-between;
+    padding: 2px;
+    align-items: center;
+    width:30%;
+    height:100px;
+    margin: 10px;
+    background-color: #fff;
+    
+}
+.btn{
+    
+}
+
+
+.info-container{
+    display:flex;
+    position: relative;
+    background-color: #fff;
+    margin:5px;
+    box-shadow: 0 0 5px 0 rgba(0,0,0,0.2);
+    width:30%;
+}
+
+.points-block{
+    display: flex;
+    position: relative;
+    padding:3px;
+    justify-content: space-around;
+    align-items: center;
+ 
+    box-shadow: 0 10px 5px -5px #ffee55;
+    margin: 3px;
+    width:50%;
+}
+
+
+
+.time-block{
+    display: flex;
+    padding:3px;
+    position: relative;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0 10px 5px -5px rgba(30, 129, 204, 0.2);
+    margin: 3px;
+    width:50%;
+
+}
+
+.point-count{
+    display: flex;
+    position: absolute;
+    align-items: center;
+    padding:10px;
+    margin:3px;
+    background-color: #fff;
+    width:90%;
+    margin-top: 2em;
+    border: 1px solid rgb(243, 243, 243);
+    border-radius: 10px;
+}
+.time-count{
+    display: flex;
+    position: absolute;
+    align-items: center;
+    padding:10px;
+    margin:3px;
+    background-color: #fff;
+    width:90%;
+    margin-top: 2em;
+    border: 1px solid rgb(243, 243, 243);
+    border-radius: 10px;
+   
+}
+.info-text{
+    display: flex;
+    position: absolute;
+    
+    margin:3px;
+    
+    margin-bottom: 60%;
+}
+
+.result-container{
+    display:none;
+    right: 0;
+    background-color:rgb(231, 231, 231);
+    border: 1px solid black;
+    margin:3px;
+}
+
+.game-field-container{
+display: flex;
+padding:5px;
+justify-content:space-around;
+align-items: center;
+position:relative;
+flex-wrap: wrap;
+width:70%;
+height: 350px;
+border-radius: 10px;
+border: 1px solid rgb(226, 219, 219);
+margin:3px;
+box-shadow: 0 10px 5px -5px rgb(172, 255, 146);
+
+
+}
+
+.result-table{
+    display:flex;
+    position: relative;
+    justify-content: space-between;
+    padding:10px;
+    margin:3px;
+    box-shadow: 2px 2px 4px 0px rgba(35, 56, 32, 0.2);
+   
+    width:27%;
+}
+
+.game-block{
+    display:none;
+    position: relative;
+    width: 15%;
+    height: 15%;
+    margin:1px;
+    padding:1px;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 1px -1px 3px 0px rgba(109,109,109,0.53);
+    
+}
+
+
+.blockRed{
+   
+    background-color: rgb(243, 117, 117);
+    width: 50px;
+    height:50px;
+}
+
+.blockBlue{
+   
+    background-color: #4DC3FF;
+    width: 50px;
+    height:50px;
+}
+.blockGreen{
+    
+    background-color: #55FF33;
+    width: 50px;
+    height:50px;
+}
+
+.blockOrange{
+  
+    background-color: #FFD500;
+    width: 50px;
+    height:50px;
+}
+
+.blockPink{
+   
+    background-color: #FF9999;
+    width: 50px;
+    height:50px;
+}
